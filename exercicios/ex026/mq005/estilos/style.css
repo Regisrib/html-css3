@@ -20,8 +20,21 @@ padding: 10px;
 text-align: center;
 }
 
+i#burguer {
+background-color: rgb(53, 53, 53);
+color: white;
+display: block;
+padding: 10px;
+}
+
+I#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
